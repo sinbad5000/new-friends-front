@@ -12,7 +12,7 @@ import Navbar from './content/components/Navbar'
 import Login from './content/components/Login'
 import Signup from './content/components/Signup'
 import Edit from './content/components/Edit'
-import 'build/bootstrap/dist/css/bootstrap.min.css' 
+import 'bootstrap/dist/css/bootstrap.min.css' 
 import axios from 'axios'
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
